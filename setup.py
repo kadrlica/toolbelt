@@ -17,9 +17,7 @@ setup(
     author='Alex Drlica-Wagner',
     author_email='kadrlica@fnal.gov',
     scripts = [],
-    install_requires=[
-        'python >= 2.7.0',
-    ],
+    install_requires=[],
     packages=['toolbelt'],
     description="A place to hold python tools.",
     long_description=read('README.md'),
