@@ -1,4 +1,4 @@
-# Python Toolbelt (`toolbelt`)
+# toolbelt
 
 [![Build](https://img.shields.io/travis/kadrlica/toolbelt.svg)](https://travis-ci.org/kadrlica/toolbelt)
 [![PyPI](https://img.shields.io/pypi/v/toolbelt.svg)](https://pypi.python.org/pypi/toolbelt)
