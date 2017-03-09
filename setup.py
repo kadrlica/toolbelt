@@ -4,16 +4,13 @@ try: from setuptools import setup
 except ImportError: from distutils.core import setup
 import versioneer
 
-here = os.path.abspath(os.path.dirname(__file__))
-
-def read(filename):
-    return open(os.path.join(here,filename)).read()
+URL = 'https://github.com/kadrlica/toolbelt'
 
 setup(
     name='toolbelt',
     version=versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
-    url='https://github.com/kadrlica/toolbelt',
+    url=URL,
     author='Alex Drlica-Wagner',
     author_email='kadrlica@fnal.gov',
     scripts = [],
